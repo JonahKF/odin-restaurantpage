@@ -171,7 +171,14 @@ h1 {
     font-size: 3.3rem;
 }
 
+h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-top: 80px;
+}
+
 h1,
+h2,
 .catch-copy {
     color: #fff;
     font-family: "Radley";
@@ -304,6 +311,34 @@ hr {
 .menu-item {
     padding-bottom: 17px;
     border-bottom: 1px solid #4D4D4D;
+}
+
+.contact-container {
+    width: 1200px;
+    padding: 32px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    font-size: 16px;
+    color: #4D4D4D;
+
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contact-grid > div {
+    height: 500px;
+    background-color: #DEDEDE;
+}
+
+.address-container,
+.phone-container {
+    display: flex;
 }
 
 .footer {
