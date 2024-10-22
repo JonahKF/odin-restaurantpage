@@ -1,4 +1,4 @@
-function aboutPage() {
+function contactPage() {
     const container = document.getElementById("content");
     container.textContent = "";
 
@@ -11,4 +11,4 @@ function aboutPage() {
     imgDiv.appendChild(img);
 }
 
-export { aboutPage }
+export { contactPage }
