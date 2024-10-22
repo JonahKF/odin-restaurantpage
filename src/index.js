@@ -1,7 +1,7 @@
 import "./styles.css";
 import { homePage } from "./homePage";
 import { menuPage } from "./menuPage";
-import { contactPage } from "./aboutPage";
+import { contactPage } from "./contactPage";
 
 const homeBtn = document.querySelector(".home");
 homeBtn.addEventListener("click", homePage);
