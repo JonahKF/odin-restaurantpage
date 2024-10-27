@@ -12,6 +12,15 @@ menuBtn.addEventListener("click", menuPage);
 const contactBtn = document.querySelector(".about");
 contactBtn.addEventListener("click", contactPage);
 
+const nav = document.querySelector("nav");
+window.onscroll = () => {
+    if(window.scrollY > 0){
+      nav.classList.add('scrolled')
+    }
+    else{
+        nav.classList.remove('scrolled')
+    }
+}
 
 homePage();
 

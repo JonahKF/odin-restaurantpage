@@ -84,6 +84,12 @@ nav {
     width: 100vw;
     position: fixed;
     z-index: 5;
+    transition: 0.3s;
+}
+
+nav.scrolled {
+    background: #8d370c;
+    transition: 0.7s;
 }
 
 nav > .logo {
