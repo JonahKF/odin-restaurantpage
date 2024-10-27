@@ -333,12 +333,65 @@ hr {
 
 .contact-grid > div {
     height: 500px;
-    background-color: #DEDEDE;
 }
 
 .address-container,
 .phone-container {
     display: flex;
+    margin: 10px 0 10px 10px;
+    font-size: 1.1rem;
+}
+
+.map {
+    padding: 20px;
+    margin: 10px;
+    height: auto;
+    text-align: center;
+    aspect-ratio: 1/.77;
+    background-color: #DEDEDE;
+    border: 1px solid black;
+}
+
+.form-row {
+    padding-top: 7px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+  
+.form-row input[type='text'] {
+    background-color: #FFFFFF;
+    border: 1px solid #bbbcbd;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+  
+.form-row label {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.form-row textarea[id='message'] {
+    background-color: #FFFFFF;
+    border: 1px solid #bbbcbd;
+    height: 160px;
+    resize: none;
+    padding: 10px;
+}
+
+.form-row button {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    height: 45px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    background-color: #f55f15;
 }
 
 .footer {
